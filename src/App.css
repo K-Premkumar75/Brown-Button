@@ -1,0 +1,102 @@
+.container {
+  width: 96%;
+  color: #fff;
+  padding: 2%;
+  font-family: "Bookman, URW Bookman L", serif;
+}
+.col {
+  width: 100%;
+}
+.toprow {
+  display: flex;
+  align-items: center;
+}
+.userIcon {
+  width:15px;
+  height: 15px;
+  margin-left: 5%;
+}
+.bag {
+  background-color: #fff;
+  padding:5px;
+  border-radius: 50%;
+}
+.userName {
+  margin-left: 10px;
+  font-size: 10px;
+}
+.rightuserIcon {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  padding: 5px;
+  border: 0;
+  border-radius: 40%;
+  margin-left: 8px;
+}
+.rightuserName {
+  margin-left: 40%;
+  font-size: 10px;
+}
+.loginName {
+  margin-left: 5%;
+  font-size: 10px;
+}
+.loginIcon {
+  width: 15px;
+  height: 15px;
+}
+.details {
+  display: flex;
+}
+.bagDetails {
+  font-size: 28px;
+  font-weight: 200;
+  font-family: "Bookman, URW Bookman L", serif;
+  margin: 0;
+}
+.varImage {
+  width: 35px;
+  height: 35px;
+}
+
+.buyNow {
+  background-color: #fff;
+  border-radius: 25px;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 10px;
+  color: #9a9a9a;
+  margin-right: 10px;
+}
+.bin {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+.button {
+  margin-top: 5%;
+  display: flex;
+  align-items: center ;
+}
+.imagerow {
+  margin-left:25% ;
+  margin-top: 5%;
+}
+.detailsrow {
+  margin-top:5%;
+  width: 50%;
+}
+.mainBag{
+  width: 75%;
+  height: 75%;
+}
+.mainContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  padding: 10px;
+}
